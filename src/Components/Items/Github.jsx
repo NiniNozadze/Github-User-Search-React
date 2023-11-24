@@ -1,7 +1,7 @@
 import axios from "axios";
 
 import { useState } from "react";
-import "./GitHub.css";
+import "./Github.css";
 const Github = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [inputValue, setInputValue] = useState("");
