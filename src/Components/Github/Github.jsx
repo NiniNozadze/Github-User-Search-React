@@ -20,7 +20,6 @@ const Github = () => {
       setError(null);
       console.log(response.data);
     } catch (error) {
-      //   setData({});
       setError("No Results");
       console.log(error);
     }
