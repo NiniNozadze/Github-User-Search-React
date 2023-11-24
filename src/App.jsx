@@ -1,16 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import Github from './Components/Github/Github'
-
+import "./App.css";
+import Github from "./Components/Items/Github";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Github />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
